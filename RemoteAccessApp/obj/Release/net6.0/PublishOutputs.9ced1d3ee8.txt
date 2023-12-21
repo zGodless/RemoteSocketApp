@@ -1,0 +1,7 @@
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\LocalShowApp.exe
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\LocalShowApp.dll
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\LocalShowApp.deps.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\LocalShowApp.runtimeconfig.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\RemoteAccessApp\obj\Release\net6.0\PubTmp\Out\LocalShowApp.pdb

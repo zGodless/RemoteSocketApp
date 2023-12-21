@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "h5gdnGfQn8iPTKcxeeM1dNIqn92k8HUGzVldFAn6lDTKvmZYyx/nk0tiQ9vCU2u/HnLD8ohQKS8ap7dkUN+IZA==",
+  "success": true,
+  "projectFilePath": "E:\\G\\zyl\\Github\\远程socket接收程序\\RemoteSocketApp\\RemoteAccessApp\\LocalShowApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tiger\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

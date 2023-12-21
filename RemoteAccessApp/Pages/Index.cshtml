@@ -1,0 +1,100 @@
+﻿@page
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    body {
+        margin: 0;
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+</style>
+<div>   
+    <img id="img" class="remote"/>
+    <div id="connect">
+        <input id="ipadd" type="text" value="192.168.92.128"/>
+        <input type="button" value="连接" onclick="CreateWebSocket()"/>
+    </div>
+</div>
+<a href="~/lib/jquery/dist/jquery.min.map"></a>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/control.js"></script>
+<script>
+    var imgNaturalWidth = 0;//原始图片尺寸
+    var imgNaturalHeight = 0;
+    var imgWidth = $('#img').width() === 0 ? 1920 : $('#img').width()// 图片宽度
+    var imgHeight = $('#img').height() === 0 ? 1080 : $('#img').height() // 图片高度
+
+    var changeRateWidth = imgNaturalWidth / imgWidth;   //图片放缩比例
+    var changeRateHeight = imgNaturalHeight / imgHeight;
+
+    var blobArea = null;//图片数据块暂存
+    var urlImgData = null;//图片URL暂存
+
+    window.onload = function () {
+        watchControl();
+        CreateWebSocket();
+    };
+    var webSocket;
+    // 获取 img 元素
+    var img = document.getElementById('img');
+
+    // 等待图像加载完成
+    img.onload = function () {
+        // 获取 naturalWidth 属性
+        if (imgNaturalWidth == 0) {
+            imgNaturalWidth = img.naturalWidth;
+            imgNaturalHeight = img.naturalHeight;
+            imgWidth = $('#img').width() === 0 ? 1920 : $('#img').width()// 图片宽度
+            imgHeight = $('#img').height() === 0 ? 1080 : $('#img').height() // 图片高度
+            changeRateWidth = imgNaturalWidth / imgWidth;   //图片放缩比例
+            changeRateHeight = imgNaturalHeight / imgHeight;
+        }
+    };
+    //创建websockt
+    function CreateWebSocket() {
+        try {
+            if(!!$('#ipadd').val()){
+                webSocket = new WebSocket("ws://" + $('#ipadd').val() + ":5001/");
+                //webSocket = new WebSocket("ws://" + $('#ipadd').val() + ":5001/");
+                webSocket.onopen = WebSokectOnOpen;
+                webSocket.onmessage = WebSocketOnMessage;
+                webSocket.onclose = WebSocketOnClose;
+                webSocket.onerror = WebSocketOnError;
+            }
+        } catch (e) {
+            console.log(e);
+        }
+    }
+
+    //建立连接事件
+    function WebSokectOnOpen() {
+        $('#connect').hide();
+    }
+
+    //监听事件
+    function WebSocketOnMessage(event) {
+        //监听来自客户端的数据
+        if(event.data instanceof Blob){
+            const data = event.data;
+            if (!!blobArea) {
+                // 使用完 URL 对象后释放它所占用的内存空间
+                URL.revokeObjectURL(urlImgData);
+            }
+            blobArea = new Blob([data], { type: "image/jpg" });
+            urlImgData = URL.createObjectURL(blobArea);
+            $('#img').attr('src', urlImgData);
+        }
+    }
+
+    function WebSocketOnClose() {
+        CreateWebSocket()
+    }
+
+    //监听报错事件
+    function WebSocketOnError(event) {
+    }
+</script>

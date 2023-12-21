@@ -1,0 +1,17 @@
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\bin\Debug\net6.0-windows\RemoteAcceptApp.exe
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\bin\Debug\net6.0-windows\RemoteAcceptApp.deps.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\bin\Debug\net6.0-windows\RemoteAcceptApp.runtimeconfig.json
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\bin\Debug\net6.0-windows\RemoteAcceptApp.dll
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\bin\Debug\net6.0-windows\RemoteAcceptApp.pdb
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.csproj.AssemblyReference.cache
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.csproj.GenerateResource.cache
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.AssemblyInfoInputs.cache
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.AssemblyInfo.cs
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.csproj.CoreCompileInputs.cache
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.dll
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\refint\RemoteAcceptApp.dll
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.pdb
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\RemoteAcceptApp.genruntimeconfig.cache
+E:\G\zyl\Github\远程socket接收程序\RemoteSocketApp\WinFormsApp1\obj\Debug\net6.0-windows\ref\RemoteAcceptApp.dll

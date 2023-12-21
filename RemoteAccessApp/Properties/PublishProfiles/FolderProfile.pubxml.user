@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\G\zyl\Github\远程socket接收程序\发布目录</_PublishTargetUrl>
+    <History>True|2023-12-20T11:08:55.0487051Z;True|2023-12-20T19:07:55.2548885+08:00;True|2023-12-20T17:19:39.3466787+08:00;True|2023-12-18T11:13:01.8655106+08:00;True|2023-12-18T11:12:52.7677792+08:00;True|2023-12-18T11:11:12.8554691+08:00;True|2023-12-18T11:11:05.9235781+08:00;True|2023-12-18T11:08:13.5603103+08:00;False|2023-12-18T11:07:21.9114060+08:00;False|2023-12-18T11:06:21.6856387+08:00;False|2023-12-18T11:06:06.0949067+08:00;True|2023-12-18T10:59:51.0423396+08:00;True|2023-12-16T15:45:43.3335709+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
